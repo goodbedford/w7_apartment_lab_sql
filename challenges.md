@@ -1,9 +1,9 @@
 
 1. Show all the psql users. (Hint: Look for a command to show roles)
-..* \du
+* \du
 
 2. Show all the tables in your apartmentlab database.
-..* \dt
+* \dt
 
 3. Show all the data in the owners table.
 ..* SELECT * FROM owners
@@ -27,7 +27,7 @@
 ..* SELECT name FROM owners WHERE name LIKE 'E%';
 
 10. Add an owner named John who is 33 years old.
-..* INSERT INTO owners (name, age) VALUES ('John',33);
+* INSERT INTO owners (name, age) VALUES ('John',33);
 
 11. Add an owner named Jane who is 43 years old.
 ..* INSERT INTO owners (name, age) VALUES ('Jane', 43);
