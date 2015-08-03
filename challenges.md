@@ -1,6 +1,6 @@
 
 1. Show all the psql users. (Hint: Look for a command to show roles)
-* \du
+  * \du
 
 2. Show all the tables in your apartmentlab database.
 * \dt
